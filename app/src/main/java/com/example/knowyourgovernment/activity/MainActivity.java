@@ -57,8 +57,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         list = findViewById(R.id.list_item);
-        //String api = "https://civicinfo.googleapis.com/civicinfo/v2/representatives?address=" + getZipCode(MainActivity.this) + "&key=AIzaSyBZp6kRPZc7oEAfGN01qe6z5xFxw97FfF4";
-        //asyncTask.execute(api);
     }
 
     public void InputDialog() {
